@@ -90,7 +90,7 @@ export default function MyModal() {
                     <div>
                         Colaboradores
                     </div>
-                    <input placeholder='Digite o email dos colaboradores aqui...' className='outline-none p-4 w-[50rem] h-[3rem] bg-gray-100'></input>
+                    <input placeholder='Digite o email dos colaboradores aqui...' className='outline-none p-4 w-[50rem] h-[3rem] bg-gray-100 rounded'></input>
                     </div>
                     <div className='p-6 pt-2 text-lg text-black pl-6'>
                     <div>
@@ -99,7 +99,7 @@ export default function MyModal() {
                     <div className="top-16 w-full">
       <Listbox value={selected} onChange={setSelected}>
         <div className="relative mt-1">
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+          <Listbox.Button className=" relative w-[50rem] h-[3rem] cursor-default rounded bg-gray-100 py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
             <span className="block truncate">{selected.name}</span>
             <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
               <ChevronUpDownIcon
@@ -154,7 +154,7 @@ export default function MyModal() {
                     <div>
                         Planner
                     </div>
-                    <input placeholder='Selecione o planner pertecente a este projeto...' className='p-4 outline-none w-[50rem] h-[3rem] bg-gray-100'></input>
+                    <input placeholder='Selecione o planner pertecente a este projeto...' className='p-4 outline-none w-[50rem] h-[3rem] bg-gray-100 rounded'></input>
                     </div>
                     <div className='flex justify-end pl-4'>
                         <div className='mr-12 text-lg text-black'>
