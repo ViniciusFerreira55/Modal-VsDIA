@@ -157,12 +157,9 @@ export default function MyModal() {
                     <input placeholder='Selecione o planner pertecente a este projeto...' className='p-4 outline-none w-[50rem] h-[3rem] bg-gray-100 rounded'></input>
                     </div>
                     <div className='flex justify-end pl-4'>
-                        <div className='mr-12 text-lg text-black'>
-                            <button onClick={closeModal} className='pt-2'>Cancelar</button>
-                        </div>
-                        <div className='text-lg bg-green-600 w-[187px] h-[45px] text-center text-white rounded-lg'>
-                            <button onClick={closeModal} className='pt-2'>Criar Projeto</button>
-                        </div>
+                            <button onClick={closeModal} className='mr-12 text-lg text-black'>Cancelar</button>
+
+                            <button onClick={closeModal} className='text-lg bg-green-600 w-[187px] h-[45px] text-center text-white rounded-lg'>Criar Projeto</button>                       
                     </div>
                 </Dialog.Panel>
               </Transition.Child>
